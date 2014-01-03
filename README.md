@@ -1,22 +1,22 @@
 bootstrap3_ie7_ie8
 ==================
 
-Bootstrap 3 has been built 'responsive first'. This means that the grid has made heavy use of media queries which are not supported in IE8 ord older versions.
+Bootstrap 3 has been built 'responsive first'. This means that the grid has made heavy use of media queries which are not supported in IE8 or older versions.
 
-This results in the these browsers displaying a single column mobile layout. Not ideal if you need to support older versions of IE.
+This results in these browsers displaying a single column mobile layout. Not ideal if you need to support older versions of IE.
 
-Bootstrap 3 - Amends for IE7 / IE8 will make the grid look acceptable for IE7 and IE8
+Bootstrap 3 - Amends for IE7 / IE8 will make the grid look acceptable for IE7 and IE8.
 
 Setup
 -----
 
 bootstrap3_ie7_ie8 requires [Node.js][node] 0.10+.
 
-You'll also need [Grunt][grunt] to be installed globally , you can do this with `npm install -g grunt-cli`.
+You'll also need [Grunt][grunt] to be installed globally, you can do this with `npm install -g grunt-cli`.
 
 You'll then need to clone this repo locally and install dependencies with `npm install`.
 
-Now start the application to watch for any changes to LESS files and will compile the CSS.
+Now start the application which will watch for any changes to LESS files and will compile the CSS.
 
 ```sh
 $ grunt
@@ -30,13 +30,22 @@ Take a look at this file in IE7 or IE8.
 
 
 To use in your own Bootstrap 3 based project
---------------------------------------
+--------------------------------------------
 
 Copy the ie8and.less file into your folder where the LESS files are.
 
-Add line to the bootstrap file at the end to import this file.
+Add line to the bootstrap file at the end to import this file `@import "ie8and.less";`
 
-Place a conditional statement on the body of your markup (see example in index.html in this repo)
+Place a conditional statement on the body of your markup (see example in index.html in this repo).
+
+```sh
+<!--[if IE 7]><body class="ie7"><![endif]-->
+<!--[if IE 8]><body class="ie8"><![endif]-->
+<!--[if IE 9]><body class="ie9"><![endif]-->
+<!--[if !IE]>-->
+<body>
+<!--<![endif]-->
+```
 
 Take a look at your site in IE7 or IE8.
 
