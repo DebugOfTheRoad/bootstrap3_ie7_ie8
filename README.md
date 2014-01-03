@@ -10,19 +10,8 @@ Bootstrap 3 - Amends for IE7 / IE8 will make the grid look acceptable for IE7 an
 Setup
 -----
 
-bootstrap3_ie7_ie8 requires [Node.js][node] 0.10+.
-
-You'll also need [Grunt][grunt] to be installed globally, you can do this with `npm install -g grunt-cli`.
 
 You'll then need to clone this repo locally and install dependencies with `npm install`.
-
-Now start the application which will watch for any changes to LESS files and will compile the CSS.
-
-```sh
-$ grunt
-```
-
-Open up any less file in this project and save the file. This will kick off a compile.
 
 Open up the index.html file in a browser.
 
@@ -56,5 +45,3 @@ License
 bootstrap3_ie7_ie8 is licensed under the [GNU General Public License 3.0][gpl].
 
 [gpl]: http://www.gnu.org/licenses/gpl-3.0.html
-[node]: http://nodejs.org/
-[grunt]: http://gruntjs.com/
