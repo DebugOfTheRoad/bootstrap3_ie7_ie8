@@ -10,8 +10,7 @@ Bootstrap 3 - Amends for IE7 / IE8 will make the grid look acceptable for IE7 an
 Setup
 -----
 
-
-You'll then need to clone this repo locally.
+Clone this repo locally.
 
 Open up the index.html file in a browser.
 
@@ -21,11 +20,11 @@ Take a look at this file in IE7 or IE8.
 To use in your own Bootstrap 3 based project
 --------------------------------------------
 
-Copy the ie8and.less file into your folder where the LESS files are.
+Copy the ie8and.less file into your folder where your LESS files are.
 
-Add line to the bootstrap file at the end to import this file `@import "ie8and.less";`
+Add a line at the end of your bootstrap.less file to import this file `@import "ie8and.less";`
 
-Place a conditional statement on the body of your markup (see example in index.html in this repo).
+Place a conditional statement on the body of your markup (see example in index.html in this repo and below).
 
 ```sh
 <!--[if IE 7]><body class="ie7"><![endif]-->
