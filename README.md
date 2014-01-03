@@ -46,5 +46,6 @@ License
 [Copyright 2014 Perry Harlock](LICENSE.txt).  
 bootstrap3_ie7_ie8 is licensed under the [GNU General Public License 3.0][gpl].
 
+[gpl]: http://www.gnu.org/licenses/gpl-3.0.html
 [node]: http://nodejs.org/
 [grunt]: http://gruntjs.com/
