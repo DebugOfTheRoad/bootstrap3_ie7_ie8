@@ -11,7 +11,7 @@ Setup
 -----
 
 
-You'll then need to clone this repo locally and install dependencies with `npm install`.
+You'll then need to clone this repo locally.
 
 Open up the index.html file in a browser.
 
